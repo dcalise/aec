@@ -1,12 +1,13 @@
 # AEC Portfolio Site
 
-Full height grid, scroll triggers change in content
-BS4
+* Full height grid
+* scroll triggers change in content
+* BS4
 
-Fonts:
+## Fonts:
 
-Colors:
-Black:  #0c121a
-White:  #ffffff
-Orange: #fc902c
-Red:    #ee5e65
+## Colors:
+Black:  #0c121a  
+White:  #ffffff  
+Orange: #fc902c  
+Red:    #ee5e65  
