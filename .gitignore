@@ -1,3 +1,3 @@
 *.map
 styles/main.css
-styles/.sasscache/*
+styles/.sass-cache/*
