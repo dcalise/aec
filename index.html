@@ -6,62 +6,96 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" />
-  <script src="./scripts/bootstrap.bundle.min.js"></script>
-  <script src="./scripts/bootstrap.min.js"></script>
-  <script src="./scripts/main.js"></script>
 </head>
 <body>
-  <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">AEC</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">AEC</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Dropdown
+      </a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
       </div>
-    </nav>
-  </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
   <div class="wrapper">
-    <div class="container">
-      <div class="col">
-        image
+    <div class="page-container" data-page-id="0">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            imageee
+          </div>
+          <div class="col">
+            <h1 class="large-title">Title</h1>
+            <p>text</p>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <h1>title</h1>
-        <p>text</p>
+    </div>
+    <div class="page-container" data-page-id="1">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            image 2
+          </div>
+          <div class="col">
+            <h1>title 2</h1>
+            <p>text 2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page-container" data-page-id="2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            image 3
+          </div>
+          <div class="col">
+            <h1>title 3</h1>
+            <p>text 3</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <footer class="footer text-center">
+    <a href="javascript:void(0)" class="next-page">V</a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="application/javascript" src="./scripts/jquery.mousewheel.min.js"></script>
+  <script type="application/javascript" src="./scripts/bootstrap/bootstrap.bundle.min.js"></script>
+  <script type="application/javascript" src="./scripts/bootstrap/bootstrap.min.js"></script>
+  <script type="application/javascript" src="./scripts/app.js"></script>
 </body>
 </html>
